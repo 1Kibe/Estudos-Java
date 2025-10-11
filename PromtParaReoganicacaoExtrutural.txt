@@ -1,0 +1,112 @@
+Quero que você analise e reorganize minha pasta de estudos de Lógica Básica em Java. Atualmente ela está desorganizada, com packages nomeados de forma aleatória e arquivos chamados "Code.java" dentro deles. O que preciso é que você me ajude a criar uma estrutura de pastas mais limpa, coerente e didática, separando o que são explicações teóricas e exemplos de código, do que são exercícios resolvidos.
+
+Vou te enviar a estrutura atual da pasta. Cada subpasta geralmente contém um único arquivo chamado "Code.java", que pode representar um exercício ou uma explicação sobre determinado tema.
+
+Seu papel é:
+
+Analisar o nome do package e, se possível, deduzir o tema (por exemplo, "RetornoDosMetodos" → tema “Métodos e Funções”; "IfElse" → tema “Estruturas Condicionais”).
+
+Identificar se cada arquivo aparenta ser uma explicação (teoria, exemplos, comentários, demonstração de conceitos) ou um exercício (atividade prática, cálculo, lógica resolvida).
+
+Com base nisso, propor uma nova estrutura de organização, separando os conteúdos em duas grandes categorias:
+
+"Explicacoes" (para conteúdos teóricos e exemplos)
+
+"Exercicios" (para atividades práticas e resoluções)
+
+Dentro de cada categoria, organize por tema principal de estudo da lógica básica em Java, seguindo uma hierarquia lógica como:
+
+Variáveis e Tipos de Dados
+
+Operadores Aritméticos e Lógicos
+
+Estruturas Condicionais (if, else, switch)
+
+Estruturas de Repetição (for, while, do-while)
+
+Métodos e Funções
+
+Arrays e Matrizes
+
+Strings
+
+Orientação a Objetos (caso existam)
+
+Cada arquivo deve ter um nome novo, descritivo e direto, no formato ExplicacaoNomeDoTema.java ou ExercicioNomeDoTema.java, conforme o caso.
+Por exemplo:
+
+“ExplicacaoIfElse.java”
+
+“ExercicioTabuada.java”
+
+“ExplicacaoMetodosComRetorno.java”
+
+“ExercicioMediaNotas.java”
+
+Se alguma pasta tiver explicações e exercícios misturados, separe-os em subpastas adequadas.
+Por exemplo:
+
+Explicacoes/Metodos/ExplicacaoMetodosSimples.java
+
+Exercicios/Metodos/ExercicioCalcularSomaComMetodo.java
+
+Depois que fizer essa reorganização, quero que você monte uma estrutura final de pastas completa em formato de árvore, mostrando exatamente como ficaria o diretório final reorganizado.
+Por exemplo:
+
+LogicaBasica/
+├── README.md
+├── Explicacoes/
+│ ├── Variaveis/
+│ │ └── ExplicacaoVariaveis.java
+│ ├── Operadores/
+│ │ └── ExplicacaoOperadoresLogicos.java
+│ ├── EstruturasCondicionais/
+│ │ ├── ExplicacaoIfElse.java
+│ │ └── ExplicacaoSwitch.java
+│ ├── EstruturasDeRepeticao/
+│ │ ├── ExplicacaoWhile.java
+│ │ └── ExplicacaoFor.java
+│ └── Metodos/
+│ └── ExplicacaoMetodosComRetorno.java
+└── Exercicios/
+├── Variaveis/
+│ └── ExercicioAreaRetangulo.java
+├── EstruturasCondicionais/
+│ └── ExercicioMaiorNumero.java
+├── EstruturasDeRepeticao/
+│ ├── ExercicioTabuada.java
+│ └── ExercicioFatorial.java
+└── Arrays/
+└── ExercicioSomaArray.java
+
+Além disso, quero que você gere um arquivo README.md principal contendo:
+
+uma breve descrição do projeto (ex: “Pasta de estudos de lógica básica em Java”)
+
+explicação da estrutura de pastas
+
+instruções de como rodar os códigos (javac e java no terminal)
+
+um sumário em formato de lista ou links para cada categoria
+
+Por fim, se possível, quero que você também gere (opcionalmente) um pequeno script em Python que, ao ser executado, faça a reorganização real dessas pastas e renomeações com base na estrutura proposta. Esse script deve apenas mover e renomear arquivos de forma automática, sem excluir nada.
+
+Reforçando as regras principais:
+
+Não apague nem resuma nada — apenas reorganize, reestruture e renomeie de forma didática.
+
+Todos os arquivos “Code.java” devem ganhar nomes claros e representativos.
+
+Quero que a saída mostre o caminho antigo e o caminho novo de cada arquivo.
+
+A saída deve ser bem formatada e fácil de seguir, mostrando a estrutura final limpa.
+
+Após eu enviar a estrutura atual da minha pasta, analise tudo, deduza o propósito de cada item e retorne com:
+
+Uma estrutura final reorganizada completa.
+
+A lista de renomeações e realocações (ex: “RetornoDosMetodos/Code.java → Explicacoes/Metodos/ExplicacaoMetodosComRetorno.java”).
+
+O conteúdo do arquivo README.md gerado automaticamente.
+
+E se possível, o script Python opcional que aplicaria essas mudanças automaticamente.

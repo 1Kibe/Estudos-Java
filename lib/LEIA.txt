@@ -1,0 +1,2 @@
+algaworks_console-1.0.jar
+uma biblioteca feita por conta propria bem simples afim de estudos
