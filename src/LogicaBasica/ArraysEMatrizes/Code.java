@@ -1,4 +1,4 @@
-package LogicaBasica.ListaDimanamica_SalvandoEmTxt;
+package LogicaBasica.ArraysEMatrizes;
 
 import java.io.IOException;
 import java.nio.file.Files;
